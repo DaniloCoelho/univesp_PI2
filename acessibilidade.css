@@ -9,7 +9,8 @@
     display:inline-flex;
     height: 136px;
     margin: 0px;
-    background-image: linear-gradient(rgb(218, 217, 188), rgb(255, 255, 255));
+    background-color:rgb(255, 255, 255);
+    background-image:none;
 }
 .logo{
     width:370px;
@@ -45,19 +46,22 @@
     
 }
 .sectionfooter{
-    background-image: linear-gradient(rgb(240, 239, 239), rgb(188, 188, 188));
+    background-image: none;
     padding: 20px;
-    margin-top: 25px
+    margin-top: 25px;
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
 
 nav{
     height: 50px;
     width: 100%;
     position:relative;
-    background-image: linear-gradient(rgb(255, 251, 144), rgb(255, 255, 28));
+    background-color: rgb(0, 0, 0);
+    background-image:none;
    
 }
-nav ul{
+nav ul {
     float: right;
     margin: right 10px;
     box-shadow: inset;
@@ -71,8 +75,8 @@ nav ul li{
     margin: 0 5px;  
 }
 nav ul li a {
-    color: rgb(0, 35, 124);
-    font-size: 19px;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
     padding: 1px;
     padding-top: 8px;
     border-radius: 5px;
@@ -81,22 +85,25 @@ nav ul li a {
     height: 40px;
     padding-right: 7px;
     padding-left: 10px;
+    background-image:none;
     
 }
 a.active , a:hover{
-    background-image: linear-gradient(rgb(232, 231, 231), rgb(255, 255, 255));
+    background-color: rgb(255, 255, 255);
+    background-image: none;
     border-radius: 2px;
-    color: rgb(157, 147, 51); 
+    color: rgb(0, 0, 0); 
 
 }
 ul ul{
     position: absolute;
     min-width: 200px;
     display: none;
-    background-image: linear-gradient(rgb(255, 251, 144), rgb(255, 255, 28));
+    background-color: rgb(0, 0, 0);
     padding: 0px;
     margin: 0px;
     border-radius: 1px;
+    background-image:none;
 }
 ul ul li{
     display: block;
@@ -110,33 +117,6 @@ ul li:hover ul{
 .apoiedrop{
     margin-left: -100px;
 }
-.btn_acess{
-    margin-top: -5px;
-    color: rgb(15, 15, 16);
-    font-size: 17px;
-    border-radius: 5px;
-    text-decoration:none;
-    display: block;
-    height: 40px;
-    background-color: white;
-    font-weight: bold;
-    
-}
-.btn_acessdiv{
-    margin-top: -0px;
-    margin-left: -7px;
-    color: rgb(15, 15, 16);
-    font-size: 10px;
-    border-radius: 2px;
-    text-decoration:none;
-    display: block;
-    height: 28px;
-    background-color: white;
-    font-weight: bold;
-    padding: 1px;
-    display:none ;
-    
-}
 
 
 @media(max-width: 1050px){
@@ -145,18 +125,21 @@ ul li:hover ul{
         display:inline-flex;
         height: 136px;
         margin: 0px;
-        background-image: linear-gradient(rgb(218, 217, 188), rgb(255, 255, 255));
+        background-image:none;
+        background-color: white;
     
     }
     .logo{
         width:250px;
         height:136px;
+        display: none;
     }
     .divlogo{
         max-width:40%;
         margin-left: 0px;
         width:250px;
         height:136;
+        display: none;
     }
     .divcabecalho{
         height:136px;
@@ -180,17 +163,20 @@ ul li:hover ul{
         
     }
     .sectionfooter{
-        background-image: linear-gradient(rgb(240, 239, 239), rgb(188, 188, 188));
+        background-image:none;
         padding: 20px;
         margin-top: 25px;
-        font-size: 13px;
+        font-size: 18px;
+        background-color: rgb(0, 0, 0);
+        color: white;
     }
     
     nav{
         height: 50px;
         width: 100%;
         position:relative;
-        background-image: linear-gradient(rgb(255, 251, 144), rgb(255, 255, 28));
+        background-image: none;
+        background-color: black;
        
     }
     
@@ -208,29 +194,28 @@ ul li:hover ul{
         margin: 0 5px;  
     }
     nav ul li a {
-        color: rgb(0, 35, 124);
-        font-size: 15px;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
         padding: 1px;
         padding-top: 8px;
         border-radius: 5px;
         text-decoration:none;
         display: block;
         height: 40px;
-        padding-right: 0px;
-        padding-left: 1px;  
+        padding-right: 7px;
+        padding-left: 10px;  
     }
     a.active , a:hover{
-        background-image: linear-gradient(rgb(232, 231, 231), rgb(255, 255, 255));
+        background-image: none;
         border-radius: 2px;
-        color: rgb(157, 147, 51); 
-        
+        color: #000000; 
     
     }
     ul ul{
         position: absolute;
         min-width: 200px;
         display: none;
-        background-image: linear-gradient(rgb(255, 251, 144), rgb(255, 255, 28));
+        background-image: none;
         padding: 0px;
         margin: 0px;
         border-radius: 1px;
@@ -246,25 +231,7 @@ ul li:hover ul{
         position: absolute;
     }
     .apoiedrop{
-        margin-left: -160px;
-        margin-top: -5px;
-    }
-    .sobrenosdrop{
-        margin-left: -70px;
-        margin-top: -5px;
-    }
-    .btn_acess{
-        margin-top: -5px;
-        margin-left: 0px;
-        color: rgb(15, 15, 16);
-        font-size: 13px;
-        border-radius: 3px;
-        text-decoration:none;
-        display: block;
-        height: 40px;
-        background-color: white;
-        font-weight: bold;
-        padding: 1px;
+        margin-left: -100px;
     }
     
 }
@@ -274,7 +241,7 @@ ul li:hover ul{
         display:inline-flex;
         height: 80px;
         margin: 0px;
-        background-image: linear-gradient(rgb(218, 217, 188), rgb(255, 255, 255));
+        background-color:rgb(255, 255, 255);
 
     }
     .logo{
@@ -286,6 +253,7 @@ ul li:hover ul{
         margin-left: 0px;
         width:100px;
         height:80px;
+        display: none;
     }
     .divcabecalho{
         height:80px;
@@ -294,7 +262,7 @@ ul li:hover ul{
     }
     .divtitulo{
         text-align: center;
-        font-size: 13px; 
+        font-size: 16px; 
         margin-top: 10px;
         height: 40px;
         font-weight: bold;
@@ -305,64 +273,69 @@ ul li:hover ul{
         height:30px;
     }
     .sectionmain{
-        
         padding: 1px;
-        
         
     }
     .sectionfooter{
-        background-image: linear-gradient(rgb(240, 239, 239), rgb(188, 188, 188));
+        background-color: rgb(0, 0, 0);
+        color: white;
         padding: 20px;
         margin-top: 25px;
-        font-size: 12px;
+        font-size: 13px;
+        
     }
     
     nav{
         height: 30px;
         width: 100%;
         position:relative;
-        background-image: linear-gradient(rgb(255, 251, 144), rgb(255, 255, 28));
+        background-color: rgb(0, 0, 0);
+        background-image:none;
        
     }
     
     nav ul{
         float: right;
-        margin: right 5px;
+        margin: right 10px;
         box-shadow: inset;
-        margin-top: 0px;
-        padding-top: 0px;
+        margin-top: 1px;
+        padding-top: 1px;
+        background-image:none;
     }
     
     nav ul li{
         display: inline-block;
         line-height: 20px;
-        margin: 0 1px;  
+        margin: 0 5px;  
     }
     nav ul li a {
-        color: rgb(0, 35, 124);
-        font-size: 12px;
+        color: rgb(255, 255, 255);
+        font-size: 16px;
         padding: 0px;
         padding-top: 0px;
         border-radius: 3px;
         text-decoration:none;
         display: block;
         height: 20px;
-        padding-right: 0px;
+        padding-inline-end: 10px;
+        padding-right: 1px;
         padding-left: 1px;
+        background-image:none;
         
     }
     a.active , a:hover{
-        background-image: linear-gradient(rgb(232, 231, 231), rgb(255, 255, 255));
+        background-color: rgb(255, 255, 255);
         border-radius: 2px;
-        color: rgb(157, 147, 51); 
+        color: rgb(0, 0, 0); 
+        background-image:none;
     
     }
     ul ul{
         position: absolute;
         min-width: 150px;
         display: none;
-        background-image: linear-gradient(rgb(255, 251, 144), rgb(255, 255, 28));
-        padding: 2px;
+        background-color: rgb(0, 0, 0);
+        padding: 10px;
         margin: 0px;
         border-radius: 1px;
         z-index: 1;
@@ -371,7 +344,7 @@ ul li:hover ul{
     }
     ul ul li{
         display: block;
-        padding: 2px;
+        padding: 0px;
         margin: 0px;   
     }
     ul li:hover ul{
@@ -380,36 +353,6 @@ ul li:hover ul{
     }
     .apoiedrop{
         margin-left: -80px;
-    }
-    .btn_acess{
-        margin-top: -0px;
-        margin-left: -7px;
-        color: rgb(15, 15, 16);
-        font-size: 10px;
-        border-radius: 2px;
-        text-decoration:none;
-        display: block;
-        height: 28px;
-        background-color: white;
-        font-weight: bold;
-        padding: 1px;
-        display:none ;
-        
-    }
-    .btn_acessdiv{
-        margin-left: -1px;
-        color: rgb(15, 15, 16);
-        font-size: 10px;
-        border-radius: 2px;
-        text-decoration:none;
-        background-color: white;
-        font-weight: bold;
-        padding: -2px;
-        display:inline;
-        width: 100%;
-        margin-block-end: 2px;
-        
-        
     }
     
 }
